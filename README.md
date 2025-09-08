@@ -32,37 +32,25 @@ A powerful Discord bot designed for event planning with multi-timezone support. 
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
    git clone https://github.com/yourusername/discord-event-planner-bot.git
    cd discord-event-planner-bot
-   \`\`\`
 
 2. **Install dependencies**
-   \`\`\`bash
    npm install
-   \`\`\`
 
 3. **Environment Setup**
    Create a `.env` file in the root directory:
-   \`\`\`env
    DISCORD_TOKEN=your_bot_token_here
    CLIENT_ID=your_application_id_here
-   \`\`\`
 
 4. **Deploy Commands**
-   \`\`\`bash
    npm run deploy-commands
-   \`\`\`
 
 5. **Start the Bot**
-   \`\`\`bash
    npm run bot
-   \`\`\`
 
 6. **Start Web Dashboard** (Optional)
-   \`\`\`bash
    npm run dev
-   \`\`\`
 
 ## Getting Your Discord Bot Token
 
@@ -74,11 +62,10 @@ A powerful Discord bot designed for event planning with multi-timezone support. 
 
 ## Inviting the Bot
 
-Use this link to invite the bot to your server (replace CLIENT_ID with your actual client ID):
+Use this link to invite the bot to your server):
 
-\`\`\`
 https://discord.com/api/oauth2/authorize?client_id=CLIENT_ID&permissions=2048&scope=bot%20applications.commands
-\`\`\`
+
 
 ## Web Dashboard
 
